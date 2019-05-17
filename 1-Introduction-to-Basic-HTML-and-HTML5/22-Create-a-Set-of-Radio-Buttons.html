@@ -1,0 +1,32 @@
+<!-- I learned you can use radio buttons which allows the user to select one answer out of multiple options. Radio buttons are a type of input and can be nested inside their own label element. An input element should be nested inside the label element in order to associate the label with the radio button. All related radio buttons should have the same name attribute which groups them together and allows the user to only choose one. It is good practice to set a for attribute on the label element, with a value that matches the value of the id attribute of the input element. This allows assistive technologies to create a linked relationship between the label and the child input element
+(Ex: <label for="indoor">
+       <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+     </label>) -->
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+    <label for="indoor">
+      <input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor">
+      <input id="outdoor" type="radio" name="indoor-outdoor">  Outdoor</label>
+
+  </form>
+</main>
