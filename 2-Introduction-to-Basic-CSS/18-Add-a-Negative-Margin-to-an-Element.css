@@ -1,4 +1,4 @@
-/* I learned if you set an element's margin to a negative value, the element will grow larger*/
+/* I learned because margin adjusts the space outside of the border if you set an element's margin to a negative value, the element will grow larger. Likewise the larger the margin, the smaller the element will get*/
 
 <style>
   .injected-text {
