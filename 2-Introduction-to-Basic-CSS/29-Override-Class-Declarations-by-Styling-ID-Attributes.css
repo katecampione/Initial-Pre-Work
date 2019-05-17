@@ -1,0 +1,20 @@
+/*I learned that in the event of a styling conflict, not only will the declaration that came last take precedence, but that can also be overridden by giving an element an id and styling it */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+
+  #orange-text {
+    color: orange;
+  }
+</style>
+<h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
