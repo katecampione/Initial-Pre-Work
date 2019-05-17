@@ -1,0 +1,12 @@
+/*I learned that when styling the body, everything that is nested inside the body element will also inherit the style changes*/
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</h1>
