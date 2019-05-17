@@ -1,0 +1,7 @@
+/*I learned how to change the color of a body element and started digging into CSS inheritance*/
+
+<style>
+body {
+  background-color: black;
+}
+</style>
