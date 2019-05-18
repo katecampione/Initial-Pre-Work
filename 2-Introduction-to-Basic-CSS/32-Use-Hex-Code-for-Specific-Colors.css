@@ -1,0 +1,7 @@
+/*I learned you can use  can use 6 hexadecimal digits to represent colors, two each for the red (R), green (G), and blue (B) components and begin w/ the # symbol. It's a good way to get a more specific green color for instance than just typing green. */
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
