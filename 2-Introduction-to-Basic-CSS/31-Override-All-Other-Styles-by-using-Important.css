@@ -1,0 +1,18 @@
+/*I learned that the most powerful way to override other styles is by using !important. You shouldn't use it very often, but it's necessary at times if when using a CSS library it overrides all of your CSS you can use !important to be sure an element has specific CSS */
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
