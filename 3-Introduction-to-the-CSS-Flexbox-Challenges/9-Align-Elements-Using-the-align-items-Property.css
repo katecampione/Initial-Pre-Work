@@ -1,0 +1,33 @@
+/*I learned that flex containers also have a cross axis which is opposite the main axis. We can use the align-items property to align flex items along the cross axis. For a row, it tells CSS how to push the items in the entire row up or down within the container. And for a column, how to push all the items left or right within the container.
+flex-start: aligns row to top and column to left
+flex-end: aligns row to bottom and column to right
+center: aligns row to center w/ space above and below and aligns column to center w/ space left and right
+stretch: stretches to fill flex container
+baseline: align items to their baselines. Baseline is a text concept, think of it as the line that the letters sit on
+*/
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    align-items: center;
+
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 200px;
+    font-size: 24px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 200px;
+    font-size: 18px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"><p>Hello</p></div>
+  <div id="box-2"><p>Goodbye</p></div>
+</div>
