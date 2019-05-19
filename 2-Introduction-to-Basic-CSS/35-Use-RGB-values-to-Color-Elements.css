@@ -1,0 +1,10 @@
+/*I learned that another way to represent colors is to use RGB values between 0 and 255. You can specify the brightness of each color, 0 being absent of light and 255 being the brightest.
+Example: body {
+  background-color: rgb(255, 165, 0);
+} */
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
