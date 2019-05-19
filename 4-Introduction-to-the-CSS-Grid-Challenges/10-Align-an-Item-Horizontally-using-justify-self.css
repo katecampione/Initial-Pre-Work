@@ -1,4 +1,4 @@
-/*I learned we can use the justify-self property to align the contenet within it's cell. By default the value stretch is assigned which will stretch the content to fill the cell, but we can use these others:
+/*I learned we can use the justify-self property to align the content within it's cell horizontally. By default the value stretch is assigned which will stretch the content to fill the cell, but we can use these others:
 start: aligns the content to the left side of the cell
 center: aligns the content to the center of the cell
 end: aligns the content to the right side of the cell */
