@@ -1,0 +1,14 @@
+/*I learned that browsers often have compatibility issues in which case it will have trouble interpreting some properties. To avoid the browser reverting to a default property which is generally not ideal, you can declare fallback properties that are more widely supported. By declaring a fallback value immediately before your intended value, if the browser does not support the intended it will use the fallback*/
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
