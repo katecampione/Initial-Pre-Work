@@ -1,0 +1,31 @@
+/*I learned that direction of flex items are arranged on a main axis. For a row, a horizontal line cuts through the items and for a column a vertical line cuts through the items. There are several options for how to space the flex items along the line that is the main axis.
+center: aligns the flex items to the center of the flex container
+flex-start: pushes the flex items to the left side of the flex container
+flex-end: pushes the flex items to the right side of the flex container
+space-between: puts a space between the flex items in the container
+space-around: puts a space around the flex items and the container */
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
