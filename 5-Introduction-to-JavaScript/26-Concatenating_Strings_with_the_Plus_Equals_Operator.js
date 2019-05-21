@@ -1,4 +1,4 @@
-//I learned we can concantenate a string onto the end of an existing string variable with the += operator
+//I learned we can concatenate a string onto the end of an existing string variable with the += operator
 
 // Example
 var ourStr = "I come first. ";
