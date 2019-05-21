@@ -1,4 +1,4 @@
-// I learned that with the + you can concantete strings together. 
+// I learned that with the + you can concatenate strings together. 
 
 // Example
 var ourStr = "I come first. " + "I come second.";
