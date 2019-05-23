@@ -1,0 +1,12 @@
+// I learned that a do...while loop will pass the code through the loop no matter what ("do") then it will run ("while") a specified condition is true and stop when it is false.
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+
+do  {
+  myArray.push(i);
+  i++;
+} while (i < 10);
